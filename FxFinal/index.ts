@@ -3,9 +3,7 @@ import DataSetInterfaces = ComponentFramework.PropertyHelper.DataSetApi;
 type DataSet = ComponentFramework.PropertyTypes.DataSet;
 
 export class FxFinal implements ComponentFramework.StandardControl<IInputs, IOutputs> {
-    /**
-     * Empty constructor.
-     */
+    
     constructor() {
         // Empty
     }
@@ -34,6 +32,7 @@ export class FxFinal implements ComponentFramework.StandardControl<IInputs, IOut
      */
     public updateView(context: ComponentFramework.Context<IInputs>): void {
         // Add code to update control view
+        
     }
 
     /**
